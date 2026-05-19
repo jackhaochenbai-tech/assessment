@@ -87,7 +87,7 @@ def print_player_teams():
 #main code
 while True:
     user_input = input(
-        """What would you like to do? 5\n 1. Print all player names \n 2. Print points per game \n 3. Print usage rate \n 4. Print points created \n 5. Print player teams \n 6. Exit \n""")
+        """What would you like to do? \n 1. Print all player names \n 2. Print points per game \n 3. Print usage rate \n 4. Print points created \n 5. Print player teams \n 6. Exit \n""")
     if user_input == "1":
         print_all_players()
     elif user_input == "2":
