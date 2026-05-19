@@ -11,7 +11,7 @@ def print_all_players():
     '''print all the data nicely'''
     db = sqlite3.connect(database)
     cursor = db.cursor()
-    sql = 'SELECT * FROM player;'
+    sql = 'SELECT * FROM player ORDER BY player_name ASC;'
     cursor.execute(sql)
     results = cursor.fetchall()
     #loop through all the results
